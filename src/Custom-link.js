@@ -24,7 +24,6 @@ const About = () => (
     <h2>About</h2>
   </div>
 );
-
 const CustomLinkExample = () => (
   <Router>
     <div>

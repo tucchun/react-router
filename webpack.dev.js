@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = merge(CommonConfig, {
-  devtool: 'cheap-module-source-map',
+  // devtool: 'cheap-module-source-map',
   plugins: [
     new CleanWebpackPlugin('./dev/'),
     new webpack.HotModuleReplacementPlugin(),
