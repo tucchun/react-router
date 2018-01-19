@@ -5,6 +5,9 @@ import ReactDom from 'react-dom';
 // import RecursivePaths from './Recursive-Paths';
 // import Sidebar from './Sidebar';
 // import Animation from './Animated-Transitions'
-import AmbiguousMatches from './Ambiguous-Matches';
+// import AmbiguousMatches from './Ambiguous-Matches';
+// import RouteConfig from './Route-Config';
+import ModalGallery from './Modal-Gallery';
+import QuickStart from './QuickStart';
 ReactDom.render(
-  <AmbiguousMatches/>, document.getElementById('root'));
+  <QuickStart/>, document.getElementById('root'));
